@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatsApp Love Score Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">💖 WhatsApp Love Score Calculator</div>
+    <div class="chat-container" id="chat">
+      <div class="message system">
+        Welcome! Enter two names to calculate their love compatibility score.
+      </div>
+      <div class="message received">Hi! How does this work?</div>
+      <div class="message sent">
+        Simply type two names separated by space and we'll calculate their love score! 💕
+      </div>
+    </div>
+    <div class="input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Enter two names..."
+        onkeypress="handleKeyPress(event)"
+      />
+      <button onclick="calculateLove()">Calculate</button>
+    </div>
+    <div id="results" style="display: none">
+      <div class="love-meter">
+        <div class="meter-bar" id="meterBar">50%</div>
+      </div>
+      <div class="result-message" id="resultText"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
