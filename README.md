@@ -12,6 +12,7 @@ A fun and interactive love compatibility calculator styled like a WhatsApp chat 
 - 📈 Love meter bar animation
 - 📱 Mobile-friendly layout
 
+
 ---
 
 ## 📂 File Structure
