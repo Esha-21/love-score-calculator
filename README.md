@@ -12,6 +12,8 @@ A fun and interactive love compatibility calculator styled like a WhatsApp chat 
 - 📈 Love meter bar animation
 - 📱 Mobile-friendly layout
 
+  Try it here 👉 https://Esha-21.github.io/love-score-calculator/
+
 ---
 
 ## 📂 File Structure
